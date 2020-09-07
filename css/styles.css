@@ -38,15 +38,15 @@ a que bajen de renglón, para ajustarlos al ancho del contenedor */
 
 .flex-container {
   /* flex-wrap el valor por defecto es nowrap */
-  /* flex-wrap: nowrap; */
-  /* flex-wrap: wrap; */
+  /* flex-wrap: nowrap; 
+  flex-wrap: wrap; */
 }
 
 /* Podemos acomodar los hijos de acuerdo a la main y cross axis */
 /* Por defecto los elementos tienen un justify-content de flex-start */
 
 .flex-container.justify {
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   /* justify-content: flex-end; */
   /* justify-content: center; */
   /* justify-content: space-around; */
