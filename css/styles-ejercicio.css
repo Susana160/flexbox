@@ -93,6 +93,13 @@ Acomodar la sección 3
 2- debe haber un espaco entre ellas.
 */
 
+#section-3 .flex-container{
+  justify-content: space-between;
+}
+
+#section-3 .flex-container div {
+  width: calc((100% / 2) -15px);
+}
 
 
 /*
@@ -101,6 +108,16 @@ La imagen de esta sección debe estar posicionada en relación a su contenedor
 unos 60px desde arriba.
 */
 
+.image-container{
+  position: relative;
+  min-height: 450px;
+}
+
+/* .image-container img {
+  position: absolute;
+  top: -60px;
+  left: 0;
+} */
 
 /*
 Acomodar el footer
@@ -109,3 +126,11 @@ Acomodar el footer
 3- los elementos tienen que estar alineados verticalmente en el centro
 */
 
+footer .flex-container {
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.legales {
+  width: 55%;
+}
